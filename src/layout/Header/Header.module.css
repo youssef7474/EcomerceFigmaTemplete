@@ -1,0 +1,54 @@
+.HeaderDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+.navsLinks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.navsLinks div{
+    cursor: pointer;
+}
+
+.logoImg{
+    width: 120px;
+}
+
+
+.iconsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.iconsDiv img{
+    cursor: pointer;
+}
+.responsiveButton{
+    display: none;
+}
+
+@media(max-width:767px){
+    .responsiveButton{
+        display: block;
+    }
+    .iconsDiv{
+        display: none;
+    }
+    .navsLinks{
+        display: none;
+    }
+
+}
+
+

@@ -1,0 +1,45 @@
+.landingDiv{
+    position: relative;
+    background-image: url("../../../assets/imges/Frame 1 (1).png");
+    background-size: cover;
+    height: 200px; /* Adjust the height based on your design */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: auto;
+}
+
+.textContanier{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    color: white;
+}
+
+
+.Btn{
+    width: 240px;
+    height: 41px;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width:767px){
+    .textContanier h1{
+        font-size: 18px;
+    }
+    .textContanier p{
+        font-size: 12px;
+    }
+    .textContanier .Btn{
+        width: 100px;
+        height: 41px;
+    }
+}
+

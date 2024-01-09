@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: 'Anek Malayalam', sans-serif;}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.conatnier{
+  padding-left:25px;
+  padding-right: 25px;
+  margin: auto;
+}
