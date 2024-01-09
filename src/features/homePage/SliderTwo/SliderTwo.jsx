@@ -3,7 +3,7 @@ import React from 'react'
 const SliderTwo = () => {
   return (
     <div>
-      sliderTwo
+      sliderTwo test git
     </div>
   )
 }
