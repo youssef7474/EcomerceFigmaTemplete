@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+
+.react-multiple-carousel__arrow::before {
+  color: black;
+}
+
+.react-multiple-carousel__arrow {
+  background:transparent
+}

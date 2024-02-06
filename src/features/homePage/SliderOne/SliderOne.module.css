@@ -1,0 +1,60 @@
+.slider {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .HeaderContanier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+
+
+  .card{
+    max-width: 550px;
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+
+  .imgContanier{
+    width: 200px;
+  }
+
+  .imgContanier img{
+    width: 100%;
+  }
+
+
+
+  .discriptionContanier {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+  }
+
+  .discriptionContanier p{
+    color: #262626;
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .text{
+    color: #737373;
+    font-weight: 200;
+    font-size: 12px;
+  }
+
+
+  @media(max-width:767px){
+
+  }   
+
+@media(min-width:768px){}  
+
+@media(min-width:992px){}   
+
+@media(min-width:1200px){}   

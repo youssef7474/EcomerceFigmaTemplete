@@ -7,7 +7,8 @@ import SecondLanding from './features/homePage/SecondLanding/SecondLanding'
 import SliderOne from './features/homePage/SliderOne/SliderOne'
 import SliderTwo from './features/homePage/SliderTwo/SliderTwo'
 import Cotton from './features/homePage/Cotton/Cotton'
-
+import "./App.css"
+import Footer from './layout/Footer/Footer'
 const App = () => {
   return (
     <div >
@@ -19,6 +20,7 @@ const App = () => {
       <SliderOne/>
       <SliderTwo/>
       <Cotton/>
+      <Footer/>
     </div>
   )
 }
