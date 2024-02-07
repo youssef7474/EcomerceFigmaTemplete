@@ -12,6 +12,7 @@ import Footer from './layout/Footer/Footer'
 const App = () => {
   return (
     <div >
+    <h1>test fix bug</h1>
       <Header/>
       <Landing/>
       <CatigoryShop/>
