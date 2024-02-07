@@ -2,8 +2,8 @@ import React from 'react'
 
 const FooterKarim = () => {
   return (
-    <div style={{backgroundColor:"red",height:"100px",marginTop:"10px"}}>
-      test footer karim
+    <div style={{backgroundColor:"green",height:"100px",marginTop:"10px"}}>
+      test footer youssef
     </div>
   )
 }
