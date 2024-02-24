@@ -21,7 +21,7 @@ const App = () => {
       <SliderOne/>
       <SliderTwo/>
       <Cotton/>
-      <FooterKarim/>
+      <Footer/>
     </div>
   )
 }
