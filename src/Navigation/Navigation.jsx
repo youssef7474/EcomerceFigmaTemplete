@@ -2,7 +2,7 @@ import React from 'react'
 import { Route, Routes } from 'react-router-dom'
 import LayOut from '../layout/LayOut/LayOut'
 import HomePage from '../features/homePage/pages/HomePage'
-import About from '../features/About/About'
+import About from '../features/About/Pages/About'
 
 const Navigation = () => {
   return (

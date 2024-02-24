@@ -1,0 +1,27 @@
+.landingDiv {
+    position: relative;
+    background-image: url("../../../../assets/imges/About/Section 7.png");
+    background-size: cover;
+    height: 500px; /* Adjust the height based on your design */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .landingDiv div{
+    color: #FFFFFF;
+    width: 200px;
+    text-align: center;
+  }
+  .landingDiv h1{
+    font-size: 35px;
+    font-weight: normal;
+
+  }
+  @media(max-width:767px){
+    .landingDiv{
+        height: 250px;
+     } 
+     .landingDiv h1{
+        font-size: 25px;
+     }
+  }

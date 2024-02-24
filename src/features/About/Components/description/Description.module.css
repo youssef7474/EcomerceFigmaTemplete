@@ -1,0 +1,18 @@
+.DescriptionText{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+}
+.textContanier{
+    padding: 0px 150px 0px 150px;
+    margin-top: 50px;
+}
+
+@media(max-width:767px){
+    .DescriptionText{
+        font-size: 15px;
+    }
+    .textContanier{
+        padding: 0px 50px 0px 50px;
+    }
+}
