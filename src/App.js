@@ -9,6 +9,7 @@ import SliderTwo from './features/homePage/SliderTwo/SliderTwo'
 import Cotton from './features/homePage/Cotton/Cotton'
 import "./App.css"
 import Footer from './layout/Footer/Footer'
+
 const App = () => {
   return (
     <div >
@@ -20,7 +21,7 @@ const App = () => {
       <SliderOne/>
       <SliderTwo/>
       <Cotton/>
-      <Footer/>
+      <FooterKarim/>
     </div>
   )
 }
