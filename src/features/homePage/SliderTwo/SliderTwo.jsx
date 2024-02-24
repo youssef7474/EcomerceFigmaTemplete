@@ -30,7 +30,7 @@ const SliderTwo = () => {
     infinite={true}
     //className={styles.slider}
     autoPlay={true} // Enable auto play
-    autoPlaySpeed={2000}
+    autoPlaySpeed={3000}
   >
   {SliderTwoData.map((el) => {
     return (
