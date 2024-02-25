@@ -6,16 +6,6 @@
     background-color: #E6DED8;
 }
 
-/* @media(max-width:1200){
-    .contanier img{
-        width: 100%;
-    }
-    .textContanier{
-        padding: 0px 25px;
-    }
-    
-} */
-
 @media(max-width:767px){
     .contanier{
         flex-direction: column;
@@ -29,4 +19,4 @@
     .textContanier{
         padding: 0px 25px;
     }
-} 
+}

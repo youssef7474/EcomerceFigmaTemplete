@@ -1,0 +1,25 @@
+.contanier{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+@media(max-width:992px){
+    .contanier img{
+        width: 250px;
+    }
+    .contanier{
+        gap: 0;
+    }
+    .textContanier h1{
+        font-weight: 400;
+        font-size: 22px;
+    }
+    .textContanier p{
+        font-size: 12px;
+    }
+    .textContanier{
+        margin-right: 25px;
+    }
+} 
