@@ -1,0 +1,25 @@
+.imgContanier{
+    margin: 0 auto ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    margin-top: 15px;
+}
+.contanier{
+    border-top: 8px solid black;
+    padding:15px 180px 15px 180px;
+    display: flex;
+    gap: 20px;
+    
+}
+
+@media(max-width:767px){
+    .imgContanier{
+        width: 200px;
+    }
+    .contanier{
+        padding: 0px;
+    }
+
+}

@@ -1,0 +1,34 @@
+.Landing{
+    position: relative;
+    background-image: url("../../../../../assets//imges/blogDetails/Section 01.png");
+    background-size: cover;
+    height: 600px; /* Adjust the height based on your design */
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.textcontanier{
+    color: white;
+    font-size: 30px;
+}
+.textcontanier h1{
+    margin-bottom: -50px;
+}
+.Tag{
+    color: white;
+    border: 1px solid white;
+    padding: 7px 14px 7px 14px;
+    border-radius: 25px;
+    width: fit-content;
+}
+@media(max-width:767px){
+    .Landing{
+        height: 300px;
+    }
+    .textcontanier{
+        font-size: 12px;
+    }
+    .textcontanier h1{
+        margin-bottom: -20px;
+    }
+}
