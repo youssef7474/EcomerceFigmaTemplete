@@ -9,8 +9,6 @@ import { NavLink, useNavigate } from "react-router-dom";
 const Header = () => {
   const [buttonState, SetButtonState] = useState(false);
 
-  const navigate = useNavigate();
-  //console.log(buttonState)
 
   return (
     <>
@@ -68,16 +66,16 @@ const Header = () => {
           }}
         >
           <NavLink to="/" end>
-            <div>Home</div>
+            <div onClick={()=>SetButtonState(false)}>Home</div>
           </NavLink>
           <NavLink to="/store">
-            <div>Stores</div>
+            <div onClick={()=>SetButtonState(false)}>Stores</div>
           </NavLink>
           <NavLink to="/blog">
-            <div>Blog</div>
+            <div onClick={()=>SetButtonState(false)}>Blog</div>
           </NavLink>
           <NavLink to="/About">
-            <div>About</div>
+            <div onClick={()=>SetButtonState(false)}>About</div>
           </NavLink>
         </div>
         <div
