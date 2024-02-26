@@ -47,5 +47,14 @@
 }
 
 a.active{
-  color: red ;
+  color: black ;
+  font-weight: bold;
+}
+
+.LoaderContanier{
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #eee;
 }
