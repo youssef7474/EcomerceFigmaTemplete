@@ -45,3 +45,7 @@
 .react-multiple-carousel__arrow {
   background:transparent
 }
+
+a.active{
+  color: red ;
+}

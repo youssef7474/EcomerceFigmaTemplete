@@ -7,6 +7,14 @@
     padding-bottom: 15px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
+
 
 .navsLinks{
     display: flex;
